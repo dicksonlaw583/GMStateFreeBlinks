@@ -40,7 +40,7 @@ function blink_1way(period=1000, phaseShift=0, clock=current_time) {
 ///@return {Real}
 ///@desc Return a blinking value that alternates smoothly between 0 and 1.
 function blink_soft(offTime=250, transTime=250, onTime=offTime, phaseShift=0, clock=current_time) {
-	var _progress_ = clock mod (offTime+onTime+2*transTime);
+	var _progress_ = (clock+phaseShift) mod (offTime+onTime+2*transTime);
 	// OFF
 	if (_progress_ < offTime) {
 		return 0;
