@@ -1,0 +1,1 @@
+blinkFunction = blink_camel;

@@ -1,0 +1,49 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "GMStateFreeBlinks",
+  "resources": [
+    {"id":{"name":"spr_gmsfb_lightbulb","path":"sprites/spr_gmsfb_lightbulb/spr_gmsfb_lightbulb.yy",},"order":1,},
+    {"id":{"name":"fnt_gmsfb_text","path":"fonts/fnt_gmsfb_text/fnt_gmsfb_text.yy",},"order":4,},
+    {"id":{"name":"GMStateFreeBlinks_functions","path":"scripts/GMStateFreeBlinks_functions/GMStateFreeBlinks_functions.yy",},"order":0,},
+    {"id":{"name":"obj_gmsfb_blinker_alpha","path":"objects/obj_gmsfb_blinker_alpha/obj_gmsfb_blinker_alpha.yy",},"order":2,},
+    {"id":{"name":"obj_gmsfb_blinker_colour","path":"objects/obj_gmsfb_blinker_colour/obj_gmsfb_blinker_colour.yy",},"order":3,},
+    {"id":{"name":"rm_gmsfb_demo","path":"rooms/rm_gmsfb_demo/rm_gmsfb_demo.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_gmsfb_demo","path":"rooms/rm_gmsfb_demo/rm_gmsfb_demo.yy",},},
+  ],
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Libraries_demo","folderPath":"folders/Libraries_demo.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GMStateFreeBlinks_demo","folderPath":"folders/Libraries_demo/GMStateFreeBlinks_demo.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Libraries","folderPath":"folders/Libraries.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GMStateFreeBlinks","folderPath":"folders/Libraries/GMStateFreeBlinks.yy","order":1,},
+  ],
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.0.1.31",
+  },
+}
